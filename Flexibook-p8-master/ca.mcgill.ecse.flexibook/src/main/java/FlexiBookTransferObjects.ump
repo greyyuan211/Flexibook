@@ -1,0 +1,38 @@
+namespace ca.mcgill.ecse.flexibook.controller;
+
+class TOService{
+	name;
+	int duration;
+	int downtimeDuration;
+	int downtimeStart;
+}
+
+class TOViewAppointment{
+Date date;
+Time starttime;
+Time endtime;
+Boolean isAvailable;
+}
+
+class TOBusiness {
+  name;
+  address;
+  phoneNumber;
+  email;
+}
+
+class TOAppointment{
+Boolean result;
+Date startdate;
+Time startTime; 
+Time endtime;
+}
+
+class TOAppointmentItem{
+String state;
+String customerName;
+String serviceName;
+Date date;
+Time startTime; 
+Time endTime;
+}
